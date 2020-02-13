@@ -1,0 +1,55 @@
+los proceso que estan en camino son bash y ps 
+
+se ejecuto el programa firefox donde se encontro con el numero de PID 2923
+luego lo matamos con el comando kill 2923 e inmediatamente se cierra la aplicacion de firefox 
+
+para poder ejecutar algo en segundo plano usamos el caracter " & "
+
+comando es 
+	gedit &
+
+con CTRL + Z + ENTER se para el proceso en segundo plano 
+
+y despues con el comando fg se retoma el proceso 
+
+los procesos que mas consumen recursos son 
+
+	Xorg
+	at-spi2-registr
+	gnome-shell
+	
+
+
+PID 
+es id de proceso
+
+USER 
+usuario propietario del proceso
+
+PR
+Prioridad del Proceso
+
+NI 
+nivel de prioridad de cada proceso 
+
+VIRT
+ cantidad de memoria que utiliza 
+
+RES 
+cantidad de memoria Ram que usa un proceso 
+
+SHR 
+cantidad de memoria compartida 
+
+S 
+estado del proceso 
+
+%CPU
+porcentaje del cpu utilizado
+
+
+COMMAND
+comando utilizado para iniciar el proceso 
+
+
+top para mostrar los procesos en vivo despues encontrar el PID del proceso apretar la letra K despues ingresar el numero de PID y apretar dos veces enter y se amta al proceso 

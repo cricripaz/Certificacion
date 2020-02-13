@@ -1,0 +1,9 @@
+
+
+	cp : copia ficheros y directorios a una ruta o ubicacion
+	rm : remover ficheros
+	mv : renombrar ficheros
+	mkdir : crear un directorio
+	rmdir : borrar directorios
+	touch : crea ficheros 
+	ls : lista los elementos de un directorio  
